@@ -15,7 +15,7 @@ main{
 main .main-box{
   height: 37em;
   width: 30%;
-  background-image: linear-gradient(rgb(244, 59, 59), rgb(34, 5, 5));
+  background-image: linear-gradient(rgb(140, 218, 246), rgb(41, 5, 5));
   border-radius: 9px;
   display: flex;
   justify-content: center;
