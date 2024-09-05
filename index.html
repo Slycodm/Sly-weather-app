@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <main>
+    <div class="main-box">
+      <div class="sub-box">
+
+        <input type="text" placeholder="  Enter city name" autocomplete="off" id="input">
+        
+        <button id="searchBtn"><i class="fa-solid fa-magnifying-glass fa-bounce fa-2xl"></i></button>
+
+        <p id="city">City</p>
+        <p id="temp">--°C</p>
+        <p>Temperature</p>
+
+        <div class="temp-box">
+
+        <div><p id="humidity">0 %</p> <h5>Humidity</h5></div>
+        <div><p id="wind">0 km/ph</p> <h5>Wind</h5></div>
+        <div><p id="feels">0 °</p> <h5>Feels Like</h5></div>
+        <div><p id="visibility">0 km</p> <h5>Visibility</h5></div>
+        <div><p id="pressure">0 hPa</p> <h5>Pressure</h5></div>
+        <div><p id="uvIndex">0 mw</p> <h5>UV Index</h5></div>
+        
+
+      </div>
+
+
+
+      </div>
+    </div>
+  </main>
+
+  <script src="./counter.js"></script>
+</body>
+</html>
