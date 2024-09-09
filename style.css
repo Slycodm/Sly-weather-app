@@ -80,7 +80,7 @@ button{
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
 
    main{
     height: 100vh;
